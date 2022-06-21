@@ -1,0 +1,44 @@
+.AppHeader {
+    min-height: 50px;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-color: #a1a1a1;
+}
+
+.PasekNawigacyjny{
+    background-color: grey;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px 0 10px;
+}
+
+.Lewa{
+    height: 100%;
+    width: 50%;
+
+}
+
+.Prawa{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.TextLewa{
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+.TextPrawa{
+    text-align: right;
+    vertical-align: middle;
+}
